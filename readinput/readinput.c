@@ -15,8 +15,8 @@ int main()
     int i;
 
     printf("Enter a value:  ");
-    scanf("%d", &i);
-    printf("\n You entered : %d\n", i);
+    scanf("%d %s", &i, str);
+    printf("\n You entered : %d:::::%s\n", i, str);
 
     return 0;
 
