@@ -1,6 +1,6 @@
 /*
 Written by: Ajin Sunny
-Purpose: Read inputs from the user 
+Purpose: Read inputs from the user (especiaLLY double in this case)
 Date: 10-7-2019
 
 */
@@ -13,9 +13,11 @@ int main()
     double x;
 
     printf("Enter a double value:");
-    scanf("\nYour doubel value is %lf", &x);
+    scanf("%lf", &x);
+    printf("\nYour double value is: %lf\n",x);
+
     return 0;
-    
+
 
 
 }
