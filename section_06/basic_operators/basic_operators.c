@@ -2,7 +2,6 @@
 Written by: Ajin Sunny
 Purpose: Variables
 Date: 11-17-2019
-
 */
 #include <stdio.h>
 
